@@ -7,8 +7,27 @@
   </head>
   <body>
     <div id="root">
-      <h1>Hello hello!</h1>
-    </div>
+      <h1>Envia y Recibe Documentos Encriptados</h1>
+
+      <h2>INSTRUCCIONES</h2>
+
+      <p>INGRESA TU PALABRA CLAVE O PALABRA A CIFRAR 
+          <br>
+          (que contenga maximo 8 caracteres)  </p>
+         
+          <form>
+
+            <input type="text" placeholder='Escribe una palabra' maxlength = 8 name="word" id="word"/>
+
+            <p>Ingresa un numero a cifrar o desifrar</p>
+            <input type= number maxlength = 2 size="5" id = "number"/>
+            <button type = "submit" onclick="encode()">Encriptar</button>
+            <button type = "submit" onclick="decode()">Desencriptar</button>
+            
+        </form>    
+        
+  </div>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
