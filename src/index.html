@@ -7,24 +7,33 @@
   </head>
   <body>
     <div id="root">
-      <h1>Envia y Recibe Documentos Encriptados</h1>
+      <h1>¡PROTEGE TU INFORMACION IMPORTANTE!</h1>
 
-      <h2>INSTRUCCIONES</h2>
+      
+      <br/><br/>
+      <input type= "text" placeholder="En proceso de funcion." disabled/>
+      <button id= "adjuntar">Adjuntar</button> 
+      <img src= "descargas/carpeta.png"/>
 
-      <p>INGRESA TU PALABRA CLAVE O PALABRA A CIFRAR 
-          <br>
-          (que contenga maximo 8 caracteres)  </p>
+
+
+      <p>INGRESA TU PALABRA CLAVE O PALABRA A CIFRAR. <br> elige un numero. </p>
          
-          <form>
-
-            <input type="text" placeholder='Escribe una palabra' maxlength = 8 name="word" id="word"/>
-
-            <p>Ingresa un numero a cifrar o desifrar</p>
-            <input type= number maxlength = 2 size="5" id = "number"/>
-            <button type = "submit" onclick="encode()">Encriptar</button>
-            <button type = "submit" onclick="decode()">Desencriptar</button>
+            <input type="number" maxlength ="2" id = "numberss"/>
+            <input type="text" placeholder="Escribe una palabra." id="word"/>
+            <br/>
+            <br/>
+            <button id = "encriptar">Encriptar</button>
+            <button id = "desencriptar">Desencriptar</button>
+            <br/>
+            <br/>
+            <textarea class="last" id = "outmsg" size= 20px disabled></textarea> 
+            <br/>
+            <br/>
+            <button id= "limpiar">Limpiar.</button>
             
-        </form>    
+          
+         
         
   </div>
 

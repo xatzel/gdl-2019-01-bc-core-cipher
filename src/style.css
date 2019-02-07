@@ -1,0 +1,33 @@
+  body  {
+    
+padding: 25px;
+background-image: url("http://scd.es.rfi.fr/sites/espanol.filesrfi/imagecache/rfi_16x9_1024_578/sites/images.rfi.fr/files/aef_image/picasso600.jpg"); 
+  background-repeat: repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  text-align:center;
+  text-shadow: -2px 0 black, 0 2px black, 0 2px black, 0 -2px black;
+  color: yellow;
+  
+
+  }
+h1{
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+    
+
+}
+p { 
+    font-size: 30px;
+    color:yellow;
+}
+input[type= text] {
+    border: 2px dotted #999;
+    font-size: 20px;
+}
+input[type = number] {
+font-size: 15px;
+
+}
